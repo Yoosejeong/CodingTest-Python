@@ -22,6 +22,7 @@ def bfs(x, y):
             if graph[nx][ny]==1:
                 graph[nx][ny] = graph[x][y]+1
                 queue.append((nx,ny))
+    #가장 오른쪽 아래 최단거리 반환
     return graph[N-1][M-1]
 
 
