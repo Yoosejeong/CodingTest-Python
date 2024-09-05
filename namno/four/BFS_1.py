@@ -19,7 +19,6 @@ def bfs(graph, start_v):
     #시작점 예약
     q.append(start_v)
     visited = {start_v: True} #배열로 만들기 : visitied=[False] * len(graph)
-    x=0
     
     while q:
         #방문
