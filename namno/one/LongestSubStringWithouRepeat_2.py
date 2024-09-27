@@ -7,11 +7,11 @@ class Solution:
 
         if not s:
             return 0
-        for end in range(len(s)):
-            if s[end] in subst:
-                start = max(start,subst[s[end]]+1)
-            subst[s[end]] = end 
-            max_len = max(max_len, end-start+1)
+        for index in range(len(s)):
+            if s[index] in subst:
+                start = max(start,subst[s[index]]+1)
+            subst[s[index]] = index
+            max_len = max(max_len, index-start+1)
 
         return max_len
 
