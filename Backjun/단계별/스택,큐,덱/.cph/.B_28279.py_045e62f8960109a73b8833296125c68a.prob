@@ -1,0 +1,1 @@
+{"name":"Local: B_28279","url":"c:\\파이썬코테\\이코테\\CodingTest-Python\\Backjun\\단계별\\스택,큐,덱\\B_28279.py","tests":[{"id":1733498209807,"input":"11\n6\n1 3\n1 8\n7\n8\n3\n2 5\n1 2\n5\n4\n4","output":"1\n8\n3\n8\n3\n5\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\파이썬코테\\이코테\\CodingTest-Python\\Backjun\\단계별\\스택,큐,덱\\B_28279.py","group":"local","local":true}
